@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Login Selection</title>
+    <style>
+        body {
+            background-color: rgb(251, 210, 145);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            height: 150px; /* Adjust the height as needed */
+        }
+
+        button {
+            background-color: #8B4513; /* Brown background color */
+            color: #ffffff; /* Black text color */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px;
+            cursor: pointer;
+            width: 180px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #A0522D; /* Darker brown on hover */
+        }
+    </style>
+</head>
+<body>
+    <img src="images/products/coffee.png" alt="New Picture">
+    <img src="images/products/kopi saigon logo.png" alt="Logo" style="position: absolute; top: 10px; left: 10px; height: 100px;">
+    <h1>Welcome To Kopi Saigon Inventory System</h1>
+    <button onclick="window.location.href='admin.php'" >Admin Login</button>
+    <button onclick="window.location.href='login.php'">Staff Login</button>
+</body>
+</html>
